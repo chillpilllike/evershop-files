@@ -1,0 +1,25 @@
+{
+  "system": {
+    "extensions": [
+      {
+        "name": "s3_file_storage",
+        "resolve": "node_modules/@evershop/s3_file_storage",
+        "enabled": true,
+        "priority": 10
+      },
+      {
+        "name": "product_review",
+        "resolve": "node_modules/@evershop/product_review",
+        "enabled": true,
+        "priority": 10
+      },
+      {
+        "name": "resend",
+        "resolve": "node_modules/@evershop/resend",
+        "enabled": true,
+        "priority": 10
+      }
+    ],
+    "file_storage": "s3"
+  }
+}
