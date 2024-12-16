@@ -1,6 +1,6 @@
 {
   "resend": {
-    "from": "Customer Service <your-email@example.com>",
+    "from": "Customer Service <support@secretgreen.com.au>",
     "events": {
       "order_placed": {
         "subject": "Order Confirmation",
